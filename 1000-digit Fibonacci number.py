@@ -1,0 +1,13 @@
+Array=[]
+Array.append(None)
+Array.append(1)
+Array.append(1)
+i=3
+length_strong=0
+while(length_strong!=1000):
+    Array.append(Array[i-1]+Array[i-2])
+    strong=str(Array[i])    
+    length_strong=len(strong)
+    if(length_strong==1000):
+        print(i)
+    i+=1    

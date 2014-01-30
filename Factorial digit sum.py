@@ -1,0 +1,13 @@
+factorial=1
+i=1
+while(i<=100):
+    factorial=factorial*i
+    i+=1
+somme=0
+factorial=str(factorial)
+length=len(factorial)
+m=0
+while(m<length):
+    somme+=int(factorial[m])
+    m+=1
+print(somme)    
